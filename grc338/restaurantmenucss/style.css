@@ -1,5 +1,5 @@
 body{
-    background-color: #e6e6e6;
+    background-color: #faf4eb;
 }
 
 h1 {
@@ -9,12 +9,17 @@ h1 {
     font-family: sans-serif;
     font-size: 3em;
     color: #1F305E;
+    border-style: solid;
+    border-color: #1F305E;
+    border-width: thick;
 }
 
 h2 {
     text-align: center;
     font-family: sans-serif;
-    
+    font-size: 1.75em;
+    color: #8A4041;
+
 }
 
 h3 {
@@ -22,6 +27,7 @@ h3 {
     font-family: sans-serif;
     font-size: 1.25em;
     margin: 2em;
+    color: #7a6653;
 }
 
 h4{
@@ -35,10 +41,11 @@ h5{
 
 ul{
     list-style: none;
+    color: #282e2c;
 }
 
 li{
-    margin: 2em;
+    margin: 2em, 1em;
 }
 
 p {
