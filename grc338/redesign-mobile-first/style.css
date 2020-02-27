@@ -69,6 +69,7 @@ p{
 
 
 .services{
+  box-shadow: 0px 2px 7px;
   margin: auto;
   column-count: 2;
   padding: 4em;
@@ -110,15 +111,15 @@ p{
 #intro{
   margin-top: 2em;
   margin-bottom: 2em;
+
 }
-#intro ul{
+#intro p{
   display: block;
-  list-style: inside;
   text-align: center;
-  list-style: none;
-
 
 }
+
+
 
 #intro h1{
   margin:auto;
@@ -168,7 +169,7 @@ footer{
   .services{
     column-count: 1;
   }
-  
+
   #shortcut{
     margin-bottom: 2em;
     display: block;
