@@ -1,6 +1,5 @@
 body{
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
   background-color: #edf7f7;
 }
 
@@ -8,10 +7,15 @@ h1, h2, h3{
   font-family: "Merriweather", serif;
   font-style: italic;
   text-align: center;
+  color: #2e2e2e;
 }
 
 p{
   text-align: center;
+  color: rgb(66,66,66);
+
+
+
 }
 
 .menu{
@@ -35,7 +39,7 @@ p{
 }
 
 .menu li{
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 7px;
@@ -124,6 +128,7 @@ p{
 #intro h1{
   margin:auto;
   max-width: 20em;
+  color: #2e2e2e;
 }
 
 
@@ -177,4 +182,11 @@ footer{
     visibility: visible;
   }
 
+}
+
+@media only screen and (min-width: 30em){
+  p{
+    margin-left: 10em;
+    margin-right: 10em;
+  }
 }
