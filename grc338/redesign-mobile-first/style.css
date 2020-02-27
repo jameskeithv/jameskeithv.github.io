@@ -74,15 +74,17 @@ p{
 
 .services{
   box-shadow: 0px 2px 7px;
+  margin-top: 2em;
   margin: auto;
   column-count: 2;
   padding: 4em;
   background-color: rgb(176, 72, 125);
 }
+.services h2{
+  display: block;
+  color: white;
+}
 
-/* .service{
-  margin: auto;
-} */
 
 .service p{
   max-width: 25em;
@@ -112,6 +114,47 @@ p{
 
 }
 
+.medical{
+  padding-top: 2em;
+  box-shadow: 0px 2px 7px;
+  background-color: rgb(176, 72, 125);
+}
+
+
+.medical .service{
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  margin: auto;
+  background-color: rgb(176, 72, 125);
+
+}
+
+.medical h2, .medical h3{
+  text-align: center;
+  color: white;
+}
+
+
+.nonmedical{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.nonmedical p, .nonmedical h3{
+
+  color: #2e2e2e;
+}
+
+.advocacy{
+  box-shadow: 0px 2px 7px;
+  background-color: #0b6c80;
+  padding: 2em;
+}
+
+.advocacy h2, .advocacy h3{
+  color: white;
+}
+
 #intro{
   margin-top: 2em;
   margin-bottom: 2em;
@@ -120,6 +163,8 @@ p{
 #intro p{
   display: block;
   text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 
 }
 
@@ -131,9 +176,15 @@ p{
   color: #2e2e2e;
 }
 
+#shortcut{
+  margin-bottom: 2em;
+  display: block;
+  text-align: center;
+
+}
 
 img{
-
+  margin-bottom: 2em;
   width:100%;
 
 }
@@ -148,9 +199,7 @@ footer{
   font-style: italic;
 }
 
-#shortcut{
-  visibility: hidden;
-}
+
 
 @media only screen and (max-width:30em) {
   body{
@@ -175,12 +224,7 @@ footer{
     column-count: 1;
   }
 
-  #shortcut{
-    margin-bottom: 2em;
-    display: block;
-    text-align: center;
-    visibility: visible;
-  }
+
 
 }
 
