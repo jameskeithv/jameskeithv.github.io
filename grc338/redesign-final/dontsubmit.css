@@ -1,0 +1,10 @@
+.service {
+  float: left;
+  width: 50%;
+  background-color: #B44878;
+}
+
+.service h2, .service p{
+  text-align: center;
+  color: #fff;
+}
