@@ -11,7 +11,7 @@ h1, h2, h3{
 }
 
 p{
-  text-align: center;
+  text-align: left;
   color: rgb(66,66,66);
 
 
@@ -90,7 +90,14 @@ p{
   max-width: 25em;
   color: white;
   margin: auto;
+  text-align: left;
 
+}
+
+.section ul{
+  max-width: 25em;
+  display: block;
+  margin: auto;
 }
 
 .service h2{
@@ -166,6 +173,10 @@ p{
 
 .advocacy h2, .advocacy h3{
   color: white;
+}
+
+.contact p{
+  text-align: center;
 }
 
 #intro{
