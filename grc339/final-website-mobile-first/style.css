@@ -1,0 +1,152 @@
+/*CSS document*/
+
+#logo{
+    width: 80%;
+    margin: auto;
+    display: block;
+    box-shadow: 0, 0, 0,0;
+}
+body {
+    font-family: calluna, serif;
+    background-color: #F2F3F4;
+}
+
+
+
+nav{
+    margin-bottom: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul{
+    margin: auto;
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: #A80F0F;
+}
+
+nav li{
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-size: 1.5em;
+}
+
+nav a{
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img.contentimg {
+    width: 100%;
+    filter:grayscale(50%);
+}
+
+.story{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: .25em;
+    margin-bottom: 2em;
+    background-color: white;
+    
+}
+
+.noimg-story{
+    padding: .5em 0 .5em 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+section p{
+    color: #555F61;
+    padding-right: 1.5em;
+    padding-left: 1em;
+    margin: .25em;
+    
+}
+
+
+section h3{
+    color: #A80F0F;
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 0 .7em 0 .7em;
+    margin: .5em 0 .5em 0;
+}
+
+section h5{
+    font-family: Bebas Neue, sans-serif;
+    color: #A80F0F;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+section a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article{
+    color: #555F61;
+    padding: 0 1.5em 0 1.5em;
+    margin-bottom: 2em;
+}
+
+article h2{
+    color: #A80F0F;
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+
+}
+
+.article-inline{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: .25em;
+    margin-bottom: 2em;
+    
+}
+
+.article-inline img{
+    width: 100%;
+    filter: grayscale(45%);
+}
+
+figcaption{
+    margin: .5em;
+    padding: .5em;
+}
+
+footer{
+    margin-top: 2em;
+    text-align: center;
+    color: #555F61;
+}
+
+aside h4{
+    color: #A80F0F;
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-left: .25em;
+}
