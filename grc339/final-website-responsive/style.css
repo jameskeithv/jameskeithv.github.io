@@ -38,10 +38,7 @@ nav a{
     width: 100%;
     text-decoration: none;
 }
-div.container {
-    max-width: 40em;
-    margin: auto;
-}
+
 
 figure {
     margin: 0;
@@ -52,7 +49,7 @@ img.contentimg {
     filter:grayscale(50%);
 }
 
-.story{
+.main_story, .story{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: .25em;
     margin-bottom: 2em;
@@ -220,4 +217,115 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
 
 .homefeed{
     padding-bottom: 2em;
+}
+
+@media only screen and (min-width: 60em){
+    #logo{
+        max-width: 15em;
+    }
+    .topbar{
+        display: inline-flex;
+        background: #A80F0F;
+        width: 100%;
+        
+    }
+    .topbar ul{
+        display: block;
+        margin: auto;
+        
+    }
+    .topbar li{
+        display: inline-block;
+        float: left;
+        padding: 0 2em 0 2em;
+    }
+    
+    .homefeed{
+        max-width: 75em;
+        margin: auto;
+        display: grid;
+        padding: 0 2em 0.5em 2em;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: .5em;
+        
+    }
+    .story{
+        display:inline-block;
+        flex: 0 1 40em;
+    }
+    
+    .story h3{
+        font-size:2em;
+    }
+    
+    .main_story{
+        display: flex;
+        grid-column: 1/2;
+        flex:column;
+    }
+    
+    #about{
+        grid-column: 1/3;
+    }
+    
+    .article_container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        padding-right:5em;
+        
+    }
+
+    
+   
+    
+    .hero{
+        max-width:100%;
+        margin-left: 5em;
+        margin-right:5em;
+        
+        
+    }
+    
+    .article-inline{
+        margin-left:5em;
+        max-width: 50em;
+        margin-right: 5em;
+        
+        
+    }
+    
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        grid-column; 1/2;
+    }
+    
+    .main p{
+        max-width: 50em;
+        margin: 1em 5em 1em;
+        flex-direction: column;
+    }
+    
+    .main h2{
+        margin-right: 5em; 
+        margin-left: 2.5em;
+    }
+    
+    .gallery figure{
+        max-width: 60em;
+    }
+    
+    .gallery figcaption{
+        max-width: 100%;
+    }
+    
+    .gallery_container article{
+        max-width: 70em;
+        margin:auto;
+    }
+    
+    
+    
 }
